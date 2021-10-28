@@ -6,24 +6,27 @@ If No, print only “invalid input” with a newline. (don’t output any token!
 Your program has to check the source whether it follows the token and grammar rules or not.
 ※請使用Recursive-Decent-Parsing (ch02 ppt page 20 begin) 的模式來撰寫程式，否則將不予計分。
 ※測試檔案的換行皆為 \n
-Terminal   Regular Expression
-ID         [A-Za-z_][A-Za-z0-9_]*
-STRLIT     “[^”]*”
-LBR        \(
-RBR        \)
-DOT        \.
+| Terminal | Regular Expression     |
+| -------- |:---------------------- |
+| ID       | [A-Za-z_][A-Za-z0-9_]* |
+| STRLIT   | “[^”]*”                |
+| LBR      | \(                     |
+| RBR      | \)                     |
+| DOT      | \.                     |
 
-Productions
-1 program → stmts
-2 stmts → stmt stmts
-3 stmts → λ
-4 stmt → primary
-5 stmt → STRLIT
-6 stmt → λ
-7 primary → ID primary_tail
-8 primary_tail → DOT ID primary_tail
-9 primary_tail → LBR stmt RBR primary_tail
-10 primary_tai → λ
+| Productions |                                          |
+| ----------- | ---------------------------------------- |
+| 1           | program → stmts                          |
+| 2           | stmts → stmt stmts                       |
+| 3           | stmts → λ                                |
+| 4           | stmt → primary                           |
+| 5           | stmt → STRLIT                            |
+| 6           | stmt → λ                                 |
+| 7           | primary → ID primary_tail                |
+| 8           | primary_tail → DOT ID primary_tail       |
+| 9           | primary_tail → LBR stmt RBR primary_tail |
+| 10          | primary_tai → λ                          |
+
 | Sample Input         | Sample Output          |
 |:-------------------- |:---------------------- |
 | "test_string"        | STRLIT " test_string " |
