@@ -32,31 +32,31 @@ PLUS\
 NUM 2\
 
 
-Sample Input 2
-( 1+
-2
-Sa mple Output 2
-LPR
-NUM 1
-PLUS
-MINUS
-NUM 2
-RPR
+Sample Input 2\
+( 1+\
+2\
+Sa mple Output 2\
+LPR\
+NUM 1\
+PLUS\
+MINUS\
+NUM 2\
+RPR\
 
 
-Sample Input 3
-(1 +
-2 * 3
-/ 4
-Sample Output 3
-LPR
-LPR
-NUM 1
-PLUS
-NUM 2
-MUL
-NUM 3
-DIV
-NUM 4
-RPR
+Sample Input 3\
+(1 +\
+2 * 3\
+/ 4\
+Sample Output 3\
+LPR\
+LPR\
+NUM 1\
+PLUS\
+NUM 2\
+MUL\
+NUM 3\
+DIV\
+NUM 4\
+RPR\
 RPR
