@@ -24,12 +24,12 @@
 類推。
 每個 token 輸出後請以 \n 分隔。
 
-|Sample Input 1
-1+2
-Sample Output 1
-NUM 1
-PLUS
-NUM 2
+Sample Input 1\
+1+2\
+Sample Output 1\
+NUM 1\
+PLUS\
+NUM 2\
 
 
 Sample Input 2
