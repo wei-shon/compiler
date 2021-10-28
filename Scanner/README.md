@@ -29,7 +29,7 @@ Sample Input 1\
 Sample Output 1\
 NUM 1\
 PLUS\
-NUM 2\
+NUM 2
 
 
 Sample Input 2\
@@ -41,7 +41,7 @@ NUM 1\
 PLUS\
 MINUS\
 NUM 2\
-RPR\
+RPR
 
 
 Sample Input 3\
