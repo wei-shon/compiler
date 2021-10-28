@@ -28,17 +28,13 @@ Productions
 | Sample Input  | Sample Output 
 | --------      | -------- | 
 | "test_string"           | STRLIT " test_string " | 
-| --------      | -------- | 
 | Test_ID            | ID Test_ID | 
-| --------      | -------- | 
 | illiga!id            |  invalid input | 
-| --------      | -------- | 
-| Str. length()            |           ID Str
+| Str. length()    |    ID Str
                         DOT .
                         ID length
                         LBR (
                         RBR ) | 
-| --------      | -------- | 
 | printf(“HelloWorld”)          |    ID printf
                         LBR (
                         STRLIT " HelloWorld "
